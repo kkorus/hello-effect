@@ -1,0 +1,31 @@
+{
+  "name": "hello-effect",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "effect-language-service patch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkorus/hello-effect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkorus/hello-effect/issues"
+  },
+  "homepage": "https://github.com/kkorus/hello-effect#readme",
+  "description": "",
+  "devDependencies": {
+    "@effect/language-service": "^0.85.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@effect/experimental": "^0.60.0",
+    "@effect/platform-node": "^0.106.0",
+    "effect": "^3.21.2"
+  }
+}
