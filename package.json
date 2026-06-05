@@ -1,31 +1,21 @@
 {
   "name": "hello-effect",
-  "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "prepare": "effect-language-service patch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "format": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kkorus/hello-effect.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kkorus/hello-effect/issues"
-  },
-  "homepage": "https://github.com/kkorus/hello-effect#readme",
-  "description": "",
   "devDependencies": {
-    "@effect/language-service": "^0.85.1",
-    "typescript": "^6.0.3"
-  },
-  "dependencies": {
-    "@effect/experimental": "^0.60.0",
-    "@effect/platform-node": "^0.106.0",
-    "effect": "^3.21.2"
+    "@effect/experimental": "latest",
+    "@effect/language-service": "latest",
+    "@effect/platform-node": "latest",
+    "@types/node": "latest",
+    "effect": "latest",
+    "prettier": "^3.6.2",
+    "tsx": "latest",
+    "typescript": "5.9.2"
   }
 }
